@@ -1,0 +1,68 @@
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.noto-headings {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+    background-color: #f5f8ff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    width: 90%;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 415px;
+    width: 100%;
+    min-height: 24px;
+    list-style: none;
+}
+.nav-link {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav li a img {
+    width: 1.5rem;   
+    vertical-align: middle;
+}
+#home {
+    color: #252432;
+    font-weight: 700;
+}
+#cart {
+    color: black;
+}
+#pink {
+    color: #8987A1;
+}
