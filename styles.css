@@ -66,3 +66,45 @@ html, body {
 #pink {
     color: #8987A1;
 }
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    max-width: 100%;
+    width: 80vw;
+    height: auto;
+    margin: 13rem auto 7.5rem;
+}
+.banner-text {
+    width: 50%;
+    min-width: 299px;
+}
+h1 {
+    color: #E95A08;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    width: 100%;
+    min-height: 178px;
+    margin: 0;
+}
+.h1-black {
+    color: #000;
+}
+.banner p {
+    align-content: end;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 108px;
+}
+.banner-img {
+    max-width: 50%;
+    height: auto;
+}
